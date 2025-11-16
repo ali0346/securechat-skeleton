@@ -1,3 +1,10 @@
 .env
 .venv
 certs
+DESIGN_DOCUMENT.md
+IS_Assignment_2.pdf
+RESTORE_CERTIFICATES.sh
+securechat_dump.sql
+test_bad_cert.sh
+TEST_SIG_FAIL.md
+transcripts
