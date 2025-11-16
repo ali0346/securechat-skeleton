@@ -4,6 +4,7 @@
 
 """X.509 validation: signed-by-CA, validity window, CN/SAN."""
 
+
 import datetime
 import sys
 from pathlib import Path
