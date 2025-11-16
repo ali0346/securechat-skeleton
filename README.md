@@ -351,19 +351,6 @@ securechat-skeleton/
 └─ requirements.txt           # Python dependencies
 ```
 
-## 🧾 Deliverables
-
-When submitting on Google Classroom (GCR):
-
-1. A ZIP of your **GitHub fork** (repository).
-2. MySQL schema dump and a few sample records:
-   ```bash
-   mysqldump -u scuser -p securechat users > schema.sql
-   ```
-3. Updated **README.md** (this file).
-4. `RollNumber-FullName-Report-A02.docx` (Design Document).
-5. `RollNumber-FullName-TestReport-A02.docx` (Test Evidence Document).
-
 ## 🧪 Test Evidence Checklist
 
 ✔ Wireshark capture (encrypted payloads only)  
@@ -400,15 +387,8 @@ If you see `ModuleNotFoundError`:
 - Transcript files are automatically created in `transcripts/` directory
 - Session receipts are saved as JSON files for offline verification
 
-## 🔐 Security Considerations
 
-- **DO NOT** commit `certs/`, `transcripts/`, or `.env` files to git
-- Private keys should never be exposed
-- The implementation uses standard cryptographic practices
-- Certificate validation includes CA signature, validity period, and CN matching
 
----
-
-**Author**: [Your Name]  
+**Author**: [Ali Haider]  
 **Course**: CS-3002 Information Security  
 **Semester**: Fall 2025
